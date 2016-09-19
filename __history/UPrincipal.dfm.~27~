@@ -1,0 +1,97 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 104
+  ClientWidth = 746
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  DesignSize = (
+    746
+    104)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 16
+    Width = 259
+    Height = 13
+    Caption = 'Registro do Windows (Root = HKEY_CURRENT_USER)'
+  end
+  object BtnCarregar: TButton
+    Left = 8
+    Top = 72
+    Width = 129
+    Height = 25
+    Caption = 'Carregar do Registro'
+    TabOrder = 0
+    Visible = False
+    OnClick = BtnCarregarClick
+  end
+  object EdtRegistro: TEdit
+    Left = 8
+    Top = 35
+    Width = 730
+    Height = 21
+    Anchors = [akLeft, akTop, akRight]
+    TabOrder = 1
+    Text = 
+      'SOFTWARE\Microsoft\Microsoft SQL Server\100\Tools\Shell\FontAndC' +
+      'olors\{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}'
+    ExplicitWidth = 813
+  end
+  object StrGrid: TStringGrid
+    Left = 8
+    Top = 112
+    Width = 730
+    Height = 0
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    ColCount = 4
+    DrawingStyle = gdsGradient
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing]
+    TabOrder = 2
+    OnDrawCell = StrGridDrawCell
+    ExplicitWidth = 813
+    ExplicitHeight = 73
+    ColWidths = (
+      272
+      152
+      91
+      163)
+  end
+  object BtnSalvarConfig: TButton
+    Left = 233
+    Top = 72
+    Width = 128
+    Height = 25
+    Caption = 'Salvar Configura'#231#245'es'
+    TabOrder = 3
+    OnClick = BtnSalvarConfigClick
+  end
+  object BtnCarregarConfig: TButton
+    Left = 367
+    Top = 72
+    Width = 128
+    Height = 25
+    Caption = 'Carregar Configura'#231#245'es'
+    TabOrder = 4
+    OnClick = BtnCarregarConfigClick
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = 'Arquivo Ini (*.ini)|*.ini'
+    Left = 240
+    Top = 208
+  end
+  object SaveDialog1: TSaveDialog
+    Filter = 'Arquivo Ini (*.ini)|*.ini'
+    Left = 344
+    Top = 208
+  end
+end

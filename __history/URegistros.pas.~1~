@@ -1,0 +1,25 @@
+unit URegistros;
+
+interface
+
+uses
+  Classes, SysUtils, Graphics;
+
+type
+  TRegistro = class(TCollectionItem)
+    private
+      FName: string;
+      FForeground: TColor;
+      FBackground: TColor;
+      FBold: boolean;
+    public
+
+    published
+      property Name: string read FName write FName;
+      property Foreground: TColor read FForeground write FForeground;
+      property Background: TColor read FBackground write FBackground;
+  end;
+
+implementation
+
+end.

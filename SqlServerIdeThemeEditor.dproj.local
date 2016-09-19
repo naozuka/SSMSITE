@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/16 09:08:42.000.102,=C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/16 09:09:24.000.062,C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\DelphiXE2\SqlServerIdeThemeEditor\UPrincipal.pas=C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/09/16 09:09:24.000.062,C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\DelphiXE2\SqlServerIdeThemeEditor\UPrincipal.dfm=C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2016/09/16 09:09:33.000.302,C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\DelphiXE2\SqlServerIdeThemeEditor\SqlServerIdeThemeEditor.dproj=C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/09/16 15:11:16.000.010,=C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\DelphiXE2\SqlServerIdeThemeEditor\Unit1.pas</Transaction>
+    <Transaction>2016/09/16 15:11:41.000.838,C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\DelphiXE2\SqlServerIdeThemeEditor\Unit1.pas=C:\Users\MMNAOZUKA\Documents\RAD Studio\Projects\DelphiXE2\SqlServerIdeThemeEditor\URegistros.pas</Transaction>
+  </Transactions>
+</BorlandProject>
